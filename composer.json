@@ -1,0 +1,28 @@
+{
+  "name": "rbao123/allinpay",
+  "description": "通联收银宝支付",
+  "keywords": [
+    "allinpay",
+    "通联收银宝"
+  ],
+  "require": {
+    "php" : ">=7.3",
+    "ext-openssl": "*",
+    "ext-json": "*"
+  },
+  "authors": [
+    {
+      "name": "rbao",
+      "email": "wrbao@foxmail.com"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "bao\\allinpay\\": "src/"
+    }
+  },
+  "extra": {
+
+  }
+}
